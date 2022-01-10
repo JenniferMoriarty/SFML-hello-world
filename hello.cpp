@@ -14,6 +14,7 @@ int main()
     text.setCharacterSize(24); // in pixels, not points!
     text.setFillColor(sf::Color::Red);
     text.setStyle(sf::Text::Bold | sf::Text::Underlined);
+    text.setFont (font);
 
 
     while (window.isOpen())
